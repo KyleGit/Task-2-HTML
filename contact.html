@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <div style="background-color: coral;">
+    <a href="https://facebook.com/" target="_blank" >
+    <img src="images/facebook.png" width="100px"></a>
+  <a href="tel:131555666">
+    <img src="images/phone.png" width="100px"></a>
+  <a href="mailto:mail@gmail.com">
+    <img src="images/mail.png" width="100px"></a></head>
+</div>
+  <br>
+<body>
+  <div style="background-color: lightgreen;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.782120194462!2d-3.1919460226548693!3d55.953148173159086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c78fb1aef4fb%3A0x2fe34754335241ea!2sWaverley%20Steps%2C%201%20Princes%20St%2C%20Edinburgh%20EH2%202EQ!5e0!3m2!1sen!2suk!4v1702549448732!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <br>
+<form>
+<div style="background-color: lightblue;"
+<label for="fname">First name:</label>
+<!--br inserts a single line break-->
+<br>
+<!--defines a single-line input field for text input.--> <input type="text" id="fname" name="fname"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname">
+<br><br>
+<!--radio button to select option-->
+<label for="gender">Gender:</label><br>
+<input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label><br>
+<input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+<br><br>
+  <!--dropdown menu-->
+  <label for="location">Location:</label><br>
+  <select id="location" name="location">
+  <option value="Midlothian">Midlothian</option> <option value="West Lothian">West Lothian</option> <option value="East Lothian">East Lothian</option> <option value="Edinburgh">Edinburgh</option>
+  </select>
+  <br><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50"> </textarea>
+  <br><br>
+  <!--submit button-->
+  <input type="submit" value="Submit"> </form>
+</div>
+  </body>
+  </html>
